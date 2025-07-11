@@ -100,6 +100,7 @@ nav {
     text-align: center;
     padding: 50px 80px;
     border-radius: 10px;
+    margin-bottom: 137px;
 }
 
 .product-user-bottom {
@@ -126,6 +127,72 @@ nav {
     margin-top: 0px;
 }
 
+
+/* main user feedback styles */
+.feedback-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card-title{
+    color: #1E1E1E;
+    font-size: 29px;
+    margin-bottom: 0px;
+}
+.card-title{
+    color: #1E1E1E;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+
+.card-bottom {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 20px;
+
+}
+
+.img-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    
+
+}
+
+.reviewer-data h6 {
+    margin: 0; 
+    padding: 0;
+    font-size: 16px;
+    color: #757575;
+}
+
+.reviewer-data p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #B3B3B3;
+    /
+}
+
+
 /* main touch section styles */
 .touch {
     display: flex;
@@ -137,7 +204,7 @@ nav {
     padding: 71px;
 }
 
-.touch-left{
+.touch-left {
     color: #000000;
     font-size: 97px;
     font-weight: bold;
@@ -171,36 +238,36 @@ nav {
 }
 
 /* Fotter stles */
-.footer{
+.footer {
     background-color: #FFFFFF;
     text-align: center;
 }
 
-.footer-items{
+.footer-items {
     padding: 104px 455px 103px 454px;
 }
 
-.footer-bottom{
+.footer-bottom {
     display: flex;
     gap: 48px;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.footer-bottom a{
+.footer-bottom a {
     text-decoration: none;
     color: #8987A1;
     font-size: 24px;
 }
 
-.footer-description{
+.footer-description {
     margin-top: 0px;
     color: #8987A1;
     font-size: 24px;
 }
 
-.footer-title{
+.footer-title {
     color: #4E47FF;
     font-size: 100px;
     margin-bottom: 0px;

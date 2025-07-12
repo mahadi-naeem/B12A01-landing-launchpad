@@ -13,6 +13,11 @@ body {
     border: none;
 }
 
+.btn-primary:hover {
+    background-color: rgb(221, 31, 31);
+}
+
+
 
 /*navbar styles*/
 .header {
@@ -149,12 +154,13 @@ nav {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
-.card-title{
+.card-title {
     color: #1E1E1E;
     font-size: 29px;
     margin-bottom: 0px;
 }
-.card-title{
+
+.card-title {
     color: #1E1E1E;
     font-size: 24px;
     margin-bottom: 0px;
@@ -173,12 +179,12 @@ nav {
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    
+
 
 }
 
 .reviewer-data h6 {
-    margin: 0; 
+    margin: 0;
     padding: 0;
     font-size: 16px;
     color: #757575;
@@ -192,6 +198,35 @@ nav {
     /
 }
 
+/* main focus styles */
+.focus {
+    background-color: #FFFFFF;
+    text-align: center;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    /* box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); */
+    margin-top: 137px;
+    padding: 71px 150px;
+}
+
+.focus-title{
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.focus-desc{
+    margin-top: 0px;
+    color: #8987A1;
+    font-size: 24px;
+}
+
+.focus-img{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 840px;
+    height: 364px;
+}
 
 /* main touch section styles */
 .touch {
